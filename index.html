@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title> Real time multi-player games with HTML5</title>
+
+      <!-- Load style sheet -->
+    <link href="index.css" media="screen" rel="stylesheet" type="text/css">
+
+  <!-- Library code -->
+    
+      <!-- Load socket.io client side contents. -->
+    <script src="/socket.io/socket.io.js"></script>
+
+
+      <!-- Load the GUI rendering library code. -->
+    <script type="text/javascript" src="lib/dat.gui.min.js"></script>
+      <!-- Load the keyboard specific code --> 
+    <script type="text/javascript" src="lib/keyboard.js"></script>
+    
+  <!-- Game code -->
+
+      <!-- Load the common game code. -->
+    <script type="text/javascript" src="game.core.js"></script>
+      <!-- Finally, Load the game client code. -->
+    <script type="text/javascript" src="client.js"></script>    
+    
+    <script type="text/javascript" src="js/core/AnimatedSprite.js"></script>
+    <script type="text/javascript" src="js/core/StaticSprite.js"></script>
+    <script type="text/javascript" src="js/core/ImgLoader.js"></script>
+    <script type="text/javascript" src="js/core/MenuItem.js"></script>
+    <script type="text/javascript" src="js/core/Screen.js"></script>
+   
+    <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/mapdata.js"></script>
+    <script type="text/javascript" src="js/Game.js"></script>
+
+    <script type="text/javascript" src="js/UnitFactory.js"></script>
+    <script type="text/javascript" src="js/OfficerFactory.js"></script>
+
+    <script type="text/javascript" src="js/Unit.js"></script>
+    <script type="text/javascript" src="js/Officer.js"></script>
+
+    <script type="text/javascript" src="js/Button.js"></script>
+    <script type="text/javascript" src="js/ControlPanel.js"></script>
+    <script type="text/javascript" src="js/keys.js"></script>
+    <script type="text/javascript" src="js/astar.js"></script>
+
+  </head>
+
+  <body>
+    <canvas id="viewport">
+    </canvas>
+  </body>
+
+</html>
